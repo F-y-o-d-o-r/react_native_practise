@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Text, View, StyleSheet, Button } from 'react-native';
 import { Header } from '../components/';
+
 export default class HomeScreen extends Component {
   constructor(props) {
     super(props);
@@ -10,14 +11,8 @@ export default class HomeScreen extends Component {
     };
   }
   static navigationOptions = {
-    title: 'Home'
-    //   headerStyle: {
-    //     backgroundColor: '#f4511e'
-    //   },
-    //   headerTintColor: '#fff',
-    //   headerTitleStyle: {
-    //     fontWeight: 'bold'
-    //   }
+    title: 'Home',
+    headerRight: <Button onPress={() => alert('This is a button!')} title="Info" color="#fff" />
   };
   onButonPress = () => {
     {

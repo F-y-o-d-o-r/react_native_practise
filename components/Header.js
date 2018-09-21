@@ -14,7 +14,7 @@ class Header extends Component {
 
 const styles = StyleSheet.create({
   container: {
-    height: 100,
+    height: 140,
     backgroundColor: '#19273D'
   },
   headerText: {

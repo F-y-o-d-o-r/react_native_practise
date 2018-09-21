@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import { Text, View } from 'react-native';
-
+import { Text, View, StyleSheet } from 'react-native';
+import { Header } from './components/';
 export default class HelloWorldApp extends Component {
   render() {
     return (
       <View>
-        <Text>Hello world!</Text>
+        <Header />
       </View>
     );
   }
